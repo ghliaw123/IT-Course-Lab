@@ -1,0 +1,8 @@
+.node-red/node_modules/
+node_modules
+scripts/
+.npm
+#NodeRed runtime stuff
+.node-red/.config.json
+.node-red/.sessions.json
+.node-red/*.backup

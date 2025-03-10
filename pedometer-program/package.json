@@ -1,0 +1,24 @@
+{
+  "name": "pedometer-ghliaw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-red  --settings ./.node-red/settings.js --userDir ./.node-red",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodered",
+    "salesforce",
+    "middleware"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-red": ">=4.0.0",
+    "node-red-contrib-re-postgres": ">=0.3.4",
+    "node-red-node-random": ">=0.4.1",
+    "node-red-dashboard": ">=3.6.5",
+    "node-red-node-ui-table": ">=0.4.4"
+  }
+}
